@@ -6,7 +6,9 @@ on:
       - main
   workflow_dispatch:
 
-permissions: read-all|write-all
+permissions:
+  - read-all
+  - write-all
 
 jobs:
   deploy:
